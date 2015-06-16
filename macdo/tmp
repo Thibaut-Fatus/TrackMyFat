@@ -1,0 +1,8 @@
+var = response.selector.css(".products")
+
+for sel in var.xpath("li/a"):
+    print sel.xpath("h4").extract()
+		print sel.xpath("@href").extract()
+
+ca ca marche, ca nous donne les url des sandwiches :)
+response.selector.xpath("//ul[@class='products']//a[not(@class) or @class!='btn-zebra-yellow-33']/@href").extract()
