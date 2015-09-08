@@ -9,7 +9,7 @@ It could be nice if I find time to add some data-viz on top of this.
 USAGE
 -----
 
-- You need to set you PYTHONPATH correctly (to TrackMyFat and TrackMyFat/back)
+- You need to set you PYTHONPATH correctly to TrackMyFat
 
 - Install python requirements
 ```
