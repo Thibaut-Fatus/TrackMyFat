@@ -26,7 +26,12 @@ jsx --watch src/ build/
 python manage.py runserver localhost:8888
 ```
 
-If you want to test the scraper, go to back/scrapy and run:
+- you can launch sraping process and insertion with
+```
+python manage.py scrape
+```
+
+If you want to test the scraper, go to back/scraper and run:
 
 ```
 scrapy crawl macdo
