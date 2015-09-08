@@ -9,6 +9,14 @@ It could be nice if I find time to add some data-viz on top of this.
 USAGE
 -----
 
+- You need to set you pythonpath correctly (to TrackMyFat and TrackMyFat/back)
+
+- Install requirements
+
+- built javascript files: jsx --watch src/ build/
+
+- django runserver
+
 If you want to test the scraper, go to back/scrapy and run:
 
 ```
