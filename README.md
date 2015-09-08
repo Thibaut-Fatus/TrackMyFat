@@ -9,7 +9,8 @@ It could be nice if I find time to add some data-viz on top of this.
 USAGE
 -----
 
-just run:
+If you want to test the scrapper, go to back/scrappy and run:
+
 ```
 scrapy crawl macdo
 ```
