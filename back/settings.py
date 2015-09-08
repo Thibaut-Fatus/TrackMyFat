@@ -1,5 +1,5 @@
 """
-Django settings for macdo project.
+Django settings for macdo (back) project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.7/topics/settings/
@@ -36,6 +36,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'back',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -48,9 +49,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'macdo.urls'
+ROOT_URLCONF = 'urls'
 
-WSGI_APPLICATION = 'macdo.wsgi.application'
+WSGI_APPLICATION = 'wsgi.application'
 
 
 # Database
