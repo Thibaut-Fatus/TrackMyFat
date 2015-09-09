@@ -12,7 +12,10 @@ BOT_NAME = 'macdo'
 
 SPIDER_MODULES = ['macdo.spiders']
 NEWSPIDER_MODULE = 'macdo.spiders'
-LOG_LEVEL='INFO'
+LOG_LEVEL = 'INFO'
+ITEM_PIPELINES = {
+        'macdo.pipelines.MacdoPipeline': 100,
+}
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 USER_AGENT = 'bobby is crawling products information'
