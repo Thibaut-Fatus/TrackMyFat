@@ -9,6 +9,6 @@ class Meal(models.Model):
     image
     nutritional info
     """
+    url = models.CharField(max_length=500, primary_key='True')
     name = models.CharField(max_length=30)
     description = models.CharField(max_length=300)
-    url = models.CharField(max_length=500)

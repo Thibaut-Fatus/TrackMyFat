@@ -16,8 +16,11 @@ class MacdoSpider(scrapy.Spider):
             yield Request(url, callback=self.parse_product)
 
     def parse_product(self, response):
-        title = response.selector.xpath("//section[@role='main']//h1[@class='title head-wide']")[0].extract()
-        sel = response.selector.xpath("//section[@class='info']")
-        yield {'title': title,
-               'url': response.url,
-               'info': sel}
+        try:
+            title = response.selector.xpath("//section[@role='main']//h1[@class='title head-wide']")[0].extract()
+            sel = response.selector.xpath("//section[@class='info']")
+            yield {'title': title,
+                   'url': response.url,
+                   'info': sel}
+        except:
+            return
