@@ -1,0 +1,4 @@
+
+npm install
+ln -s /usr/bin/nodejs /usr/bin/node
+./node_modules/react-tools/bin/jsx src/ build/
