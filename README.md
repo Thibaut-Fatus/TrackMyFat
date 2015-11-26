@@ -6,6 +6,8 @@ You will be able to see how much sugar, fat and salt your last meal gave you, yo
 
 It could be nice if I find time to add some data-viz on top of this.
 
+(if you are on a fresh install, you'll need some package before, see package-list file)
+
 USAGE
 -----
 
